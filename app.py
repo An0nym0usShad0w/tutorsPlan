@@ -27,9 +27,9 @@ def run_flow(message: str) -> dict:
 
 def main():
     st.title('Rafi TutorsPlan Tutor Chat')
-    st.header("Your Students: Rafi, Zubair")
+    st.header("Your Students: Rafi, Zubair, Rabbi, Ihan, Umm Honey")
     st.header("Write a STUDENT'S NAME to get their recommended SYLLABUS")
-    message = st.text_area("Message", placeholder = "Write a student name... (Rafi, Zubair, Rabbi, Ihan, Umm Honey)")
+    message = st.text_area("Message", placeholder = "Write a student name... ")
     
     if st.button("Run Flow"):
           if not message.strip():
